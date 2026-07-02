@@ -12,6 +12,8 @@ The README walks through the unglamorous parts - truncated names, typo'd EINs, a
 
 Why retirement plans? I worked as a 401(k) wholesaler earlier in my career. I know what advisors actually ask for, because I sat across the table from them for years.
 
+**[cite-check](https://github.com/spencerxsmith/cite-check)** is for the legal side: RAG answers with citations a machine can verify. Every citation is anchored to a verbatim quote, and a deterministic verifier confirms the quote actually appears in the cited source - catching fabricated citations before a lawyer relies on one. Extracted from a decision-memory system I built for a law firm's operations team, rebuilt with synthetic data.
+
 **[Delta Choice Benefits Advisor](https://github.com/spencerxsmith/delta-choice-benefits-advisor)** is a smaller one: a decision tool that helps Delta flyers pick benefits based on how they fly and who they fly with. Built because the choice was genuinely confusing, including to me.
 
 ## Client work
