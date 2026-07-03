@@ -14,6 +14,8 @@ Why retirement plans? I worked as a 401(k) wholesaler earlier in my career. I kn
 
 **[cite-check](https://github.com/spencerxsmith/cite-check)** is for the legal side: RAG answers with citations a machine can verify. Every citation is anchored to a verbatim quote, and a deterministic verifier confirms the quote actually appears in the cited source - catching fabricated citations before a lawyer relies on one. Extracted from a decision-memory system I built for a law firm's operations team, rebuilt with synthetic data.
 
+**[copy-check](https://github.com/spencerxsmith/copy-check)** is its financial-services sibling: marketing-copy generation gated by a deterministic compliance linter. The model writes from a brief, a declarative rule pack catches guarantee language, promissory claims, and missing disclaimers, and violations feed back until the copy passes - or it's marked failed and doesn't ship. Both repos share one design rule: never let the model grade its own homework.
+
 **[Delta Choice Benefits Advisor](https://github.com/spencerxsmith/delta-choice-benefits-advisor)** is a smaller one: a decision tool that helps Delta flyers pick benefits based on how they fly and who they fly with. Built because the choice was genuinely confusing, including to me.
 
 ## Client work
